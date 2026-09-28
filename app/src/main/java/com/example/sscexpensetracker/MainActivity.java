@@ -34,6 +34,15 @@ public class MainActivity extends AppCompatActivity {
                             Toast.LENGTH_SHORT).show();
                 });
             }
+            Button btnGetStarted2 =findViewById(R.id.btnGetStarted2);
+             if (btnGetStarted2 != null){
+                 btnGetStarted2.setOnClickListener(v -> {
+                     Toast.makeText(MainActivity.this,
+                             "Lab1 Running Dashboard on Emulator!",
+                             Toast.LENGTH_SHORT).show();
+                 });
+             }
+
         } catch (Exception e) {
             // Proper error handling for initialization issues
             Toast.makeText(this, "Error initializing app: " + e.getMessage(), Toast.LENGTH_LONG).show();

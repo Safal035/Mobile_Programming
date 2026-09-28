@@ -7,5 +7,6 @@
     <string name="app_subtitle">Track your daily income and expenses seamlessly. Built for CACS351 Mobile Programming.</string>
     <string name="course_info">Bachelor in Computer Applications (BCA)</string>
     <string name="btn_get_started">Get Started</string>
+    <string name="btn_get_started2">Dashboard</string>
     <string name="toast_welcome">Lab 1 Running Successfully on Emulator!</string>
 </resources>
